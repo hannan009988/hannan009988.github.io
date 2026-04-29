@@ -116,6 +116,9 @@ section h2 {
 .hero {
     max-width: 100% !important;
     padding: 4rem 2rem !important;
+    width: 100vw !important;      
+    margin: 0 !important;         
+    margin-left: calc(-50vw + 50%) !important;  
 }
 
 #about {
