@@ -92,11 +92,13 @@ main {
 
 .hero h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #64ffda;
-    width: 50%;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.2;
+     display: inline-block;
+    border-bottom: 2px solid #64ffda;
+    padding-bottom: 0.5rem;
 }
 
 .hero h1 span {
