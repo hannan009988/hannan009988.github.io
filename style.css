@@ -10,6 +10,7 @@ body {
     color: #333;
     background: #f4f4f4;
     padding-top: 80px; 
+    overflow-x: hidden;
 }
 header {
     background: #1a1a2e;
@@ -58,12 +59,15 @@ nav ul li a:hover {
 .hero {
     background: linear-gradient(135deg, #1a1a2e, #16213e);
     color: white;
-    height: 100vh;
+    min-height: calc(100vh - 80px);
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 2rem;
+    padding: 4rem 2rem;
+    width: 100vw;          
+    max-width: 100%;      
+    margin: 0;            
 }
 
 .hero h1 {
@@ -107,6 +111,11 @@ section h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
     color: #1a1a2e;
+}
+
+.hero {
+    max-width: 100% !important;
+    padding: 4rem 2rem !important;
 }
 
 #about {
