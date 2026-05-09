@@ -275,4 +275,7 @@ footer {
     .hero h1 {
         font-size: 2rem;
     }
+    section {
+        padding: 3rem 1rem;
+    }
 }
